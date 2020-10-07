@@ -10,3 +10,6 @@ PHP library to read and write MapServer mapfiles. Based on [MapServer 7.6.1 docu
 ```
 composer require posvitev/mapfile
 ```
+
+## License
+MapFile is open-sourced php library licensed under the GPL 2.0 license.
