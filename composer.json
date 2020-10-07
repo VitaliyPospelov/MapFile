@@ -1,0 +1,40 @@
+{
+    "name": "posvitev/mapfile",
+    "type": "library",
+    "description": "PHP library to read and write MapServer mapfiles",
+    "homepage": "https://github.com/posvitev/MapFile",
+    "license": "GPL-2.0-only",
+    "keywords": [
+        "mapserver",
+        "mapscript",
+        "mapfile"
+    ],
+    "authors": [{
+        "name": "Vitaliy Pospelov",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=7.1.3",
+        "doctrine/collections": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MapFile\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MapFile\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
